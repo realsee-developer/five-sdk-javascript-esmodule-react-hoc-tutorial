@@ -11,6 +11,9 @@ import { Recorder } from "./recorder";
 
 const FEATURES = createFiveFeature("state", "setState", "on", "off");
 
+/**
+ * ReactComponent: 状态录制
+ */
 const RecorderController = compose(
   withFive(FEATURES)
 )(class extends Component {
