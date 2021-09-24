@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" href="data:;base64,iVBORw0KGgo=">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>打标签 ｜ Tagging</title>
+  <style>
+    * { margin: 0; padding: 0; }
+    html, body #app { width: 100%; height: 100%; overflow: hidden; }
+    .tag { position: absolute; width: 0; height: 0; transform: translateZ(0); }
+    .tag-pannel { position: absolute; width: 100px; min-height: 20px; transform: translate(-50%, 0); left: 50%; bottom: 10px; background: #333; color: #fff; border-radius: 2px; text-align: center; line-height: 20px; padding: 8px; font-size: 14px;}
+    .tag-pannel:after { content: ""; display: block; position: absolute; width: 10px; height: 10px; left: 50%; bottom: -5px; transform: translate(-50%, 0) rotate(45deg); background: #333; pointer-events: none; }
+  </style>
+</head>
+<body>
+  <div id="app"></div>
+  <script type="module" src="./index"></script>
+</body>
+</html>
