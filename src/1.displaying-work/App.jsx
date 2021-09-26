@@ -6,7 +6,7 @@ import { withWindowDimensions } from "./withWindowDimensions";
 import { ModeController } from "./ModeController";
 
 /** work.json 的数据 URL */
-const workURL = "https://vrlab-public.ljcdn.com/release/static/image/release/five/work-sample/4e18246c206ba031abf00ee5028920e1/work.json";
+const workURL = "https://vrlab-public.ljcdn.com/release/static/image/release/five/work-sample/07bdc58f413bc5494f05c7cbb5cbdce4/work.json";
 
 const FiveProvider = createFiveProvider();
 
