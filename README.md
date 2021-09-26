@@ -1,5 +1,7 @@
 # Five SDK Tutorial
-> Javascript esModule with react hoc
+> Javascript with react hoc
+
+Five SDK [**Javascript with react hoc** 教程示例](https://developers.realsee.com/docs#/docs/five/web/tutorial/react_hoc/0.getting-started)
 
 ## 系统要求
 
