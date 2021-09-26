@@ -19,7 +19,7 @@
     "@emotion/styled": "^11.3.0",
     "@mui/icons-material": "^5.0.0",
     "@mui/material": "^5.0.0",
-    "@realsee/five": "^5.0.0-alpha.37",
+    "@realsee/five": "^5.0.0-alpha.40",
     "@wordpress/compose": "^5.0.2",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
