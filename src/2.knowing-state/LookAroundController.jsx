@@ -1,6 +1,7 @@
+// SPDX-License-Identifier: PolyForm-Noncommercial-1.0.0
 import React, { Component } from "react";
 import { withFive, createFiveFeature } from "@realsee/five/react";
-import { compose } from "@wordpress/compose";
+import { flowRight as compose } from "lodash";
 import IconButton from "@mui/material/IconButton";
 import Paper from "@mui/material/Paper";
 import FlipCameraAndroidIcon from "@mui/icons-material/FlipCameraAndroid";

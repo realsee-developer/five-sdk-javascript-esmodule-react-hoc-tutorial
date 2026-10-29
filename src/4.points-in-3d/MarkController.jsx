@@ -1,5 +1,6 @@
+// SPDX-License-Identifier: PolyForm-Noncommercial-1.0.0
 import React, { Component } from "react";
-import { compose } from "@wordpress/compose";
+import { flowRight as compose } from "lodash";
 import { withFive, createFiveFeature } from "@realsee/five/react";
 import Button from "@mui/material/Button";
 import Switch from "@mui/material/Switch";
